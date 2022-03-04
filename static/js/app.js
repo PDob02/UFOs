@@ -101,21 +101,21 @@ var tbody = d3.select("tbody");
     });
   }
   
-  function handleClick() {
-    let date = d3.select("#datetime").property("value");
-    let filteredData = tableData;
+//   function handleClick() {
+//     let date = d3.select("#datetime").property("value");
+//     let filteredData = tableData;
 
-//     // if-statement syntax
-// if ( condition ) { code to execute }
+// //     // if-statement syntax
+// // if ( condition ) { code to execute }
 
-// // pseudocode practice
-// if (a date is entered) {
-//   Filter the default data to show only the date entered
+// // // pseudocode practice
+// // if (a date is entered) {
+// //   Filter the default data to show only the date entered
+// // };
+
+// if (date) {
+//   filteredData = filteredData.filter(row => row.datetime === date);
 // };
-
-if (date) {
-  filteredData = filteredData.filter(row => row.datetime === date);
-};
 
 function handleClick() {
   // Grab the datetime value from the filter
