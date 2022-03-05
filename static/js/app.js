@@ -74,12 +74,10 @@ d3.selectAll("input").on("change", updateFilters);
   
     // 8. Set the filtered data to the tableData.
     let filteredData = tableData;
-  
-    
   }
   
   // 2. Attach an event to listen for changes to each filter
-  d3.selectAll("#filter-btn").on("click", handleClick);
+  d3.selectAll("#filter-btn").on("click", updateFilters);
 
   
   // Build the table when the page loads
