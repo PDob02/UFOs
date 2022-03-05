@@ -4,9 +4,15 @@ The purpose of our analysis was to examine a large dataset of UFO sightings and 
 
 __Results:__
 
-The search is very simple. Simply type in your date, city, country, shape and as you are tabbing through the fields more data should be narrowed down based on these filters. Here is an example for a California sighting:
+The search is very simple. Simply type in your date, city, country, shape and as you are tabbing through the fields more data should be narrowed down based on these filters. 
+
+__Here is an example for a California sighting:__
 
 ![alt text](https://github.com/PDob02/UFOs/blob/main/static/images/el_cajon.png)
+
+__"Circle Sightings" filtered:__
+
+![alt text] (https://github.com/PDob02/UFOs/blob/main/static/images/circles.png)
 
 Summary:
 This webpage is handy for quickly scanning through sightings if you know what you are searching for in the parameters. The data is limited to only 2010 and will not go beyond that date. It is also based on some user experiences with grammatical errors. Finally, there is no way to offload this data for others to analyze & share as it is very much a read-only website. 
