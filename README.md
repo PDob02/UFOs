@@ -15,6 +15,9 @@ __"Circle Sightings" filtered:__
 
 ![alt text](https://github.com/PDob02/UFOs/blob/main/static/images/circles.png)
 
+__Texas Sightings:__
+![alt text](https://github.com/PDob02/UFOs/blob/main/static/images/circles.png)
+
 __Summary:__
 This webpage is handy for quickly scanning through sightings if you know what you are searching for in the parameters. The data is limited to only 2010 and will not go beyond that date. It is also based on some user experiences with grammatical errors. Finally, there is no way to offload this data for others to analyze & share as it is very much a read-only website. 
 
