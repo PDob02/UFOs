@@ -15,7 +15,7 @@ __"Circle Sightings" filtered:__
 
 ![alt text](https://github.com/PDob02/UFOs/blob/main/static/images/circles.png)
 
-Summary:
+__Summary:__
 This webpage is handy for quickly scanning through sightings if you know what you are searching for in the parameters. The data is limited to only 2010 and will not go beyond that date. It is also based on some user experiences with grammatical errors. Finally, there is no way to offload this data for others to analyze & share as it is very much a read-only website. 
 
 Two recommendations I would make is first adding more data to the dataset to do a broader analysis. Next, I would allow users to better interact with the data besides the graphical serach. I would like for them to upload their own verified sightings and descriptions. This way our website could be more robust and serve the UFOlogist community better. 
