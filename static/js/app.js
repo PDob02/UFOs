@@ -45,14 +45,14 @@ function updateFilters() {
     delete filters[filterId];
   }
 
-  updateTable() ;
+  updateTable();
 
 }
 
 // 3. Use this function to update the filters. 
-// function updateFilters() {
+function updateFilters() {
 
-// d3.selectAll("input").on("change", updateFilters);
+d3.selectAll("input").on("change", updateFilters);
     // 4a. Save the element that was changed as a variable.
 
     // 4b. Save the value that was changed as a variable.
@@ -65,12 +65,12 @@ function updateFilters() {
  
   
     // 6. Call function to apply all filters and rebuild the table
-    // filterTable();
+    filterTable();
   
-  // }
+  }
   
   // 7. Use this function to filter the table when data is entered.
-  // function filterTable() {
+  function filterTable() {
   
     // 8. Set the filtered data to the tableData.
     
