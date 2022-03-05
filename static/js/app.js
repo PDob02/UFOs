@@ -40,7 +40,7 @@ function updateFilters() {
   console.log(filterId);
 
   if (elementValue) {
-    filter[filterId] = elementValue;
+    filters[filterId] = elementValue;
   }
   else {
     delete filters[filterId];
@@ -80,12 +80,12 @@ function updateFilters() {
       filteredData =  filteredData.filter(row => row[key]=== value);
     });  
   
-    buildTable(tableData);
+    buildTable(filteredData);
 
   }
   
   // 2. Attach an event to listen for changes to each filter
-  d3.selectAll("#filter-btn").on("click", updateFilters);
+  d3.selectAll("input").on("change", updateFilters);
 
   
   // Build the table when the page loads
